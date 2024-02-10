@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobStorageUI.Server", "BlobStorageUI.Server\BlobStorageUI.Server.csproj", "{FE638542-AE7E-4CEB-A794-010EB932B12D}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "blobstorageui.client", "blobstorageui.client\blobstorageui.client.esproj", "{942A982C-F6BE-4E6D-A432-A4C96193589B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE638542-AE7E-4CEB-A794-010EB932B12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE638542-AE7E-4CEB-A794-010EB932B12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE638542-AE7E-4CEB-A794-010EB932B12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE638542-AE7E-4CEB-A794-010EB932B12D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{942A982C-F6BE-4E6D-A432-A4C96193589B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942A982C-F6BE-4E6D-A432-A4C96193589B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942A982C-F6BE-4E6D-A432-A4C96193589B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{942A982C-F6BE-4E6D-A432-A4C96193589B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942A982C-F6BE-4E6D-A432-A4C96193589B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{942A982C-F6BE-4E6D-A432-A4C96193589B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0E4EC1F-8548-48B6-AD98-52A0BBEDFD81}
+	EndGlobalSection
+EndGlobal
