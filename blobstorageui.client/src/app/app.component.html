@@ -1,8 +1,27 @@
-﻿<h1>File Storage</h1>
-<form>
-    <label for="one" >Input your email :</label>
-    <input id="one" type="email" value="email"><br>
-    
-
-    <input id="two" type="file" value=" file">
-</form>
+﻿<div class="container">
+    <div class="row g-3 align-items-center">
+<h1>File Storage</h1>
+<hr class="anime">
+<div class="row g-3 align-items-center">
+    <div class="col-auto">
+      <label for="inputPassword" class="col-form-label">Input email</label>
+    </div>
+    <div class="col-auto">
+      <input type="password" id="inputPassword" class="form-control" aria-describedby="passwordHelpInline">
+    </div>
+  </div>
+  <div class="row g-3 align-items-center">
+    <div class="col-auto">
+      <label for="inputPassword" class="col-form-label">Chase file:</label>
+    </div>
+    <div class="col-auto">
+      <input type="file" id="inputFile" class="form-control" (change)="loadFile($event)" >
+    </div>
+    <div class="col-auto">
+      <span  class="form-text">
+        Must be only format .docx 
+      </span>
+    </div>
+  </div>
+    </div>
+</div>

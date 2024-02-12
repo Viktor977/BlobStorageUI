@@ -3,20 +3,38 @@
     padding: 2rem;
     text-align: center;
 }
-
-tr:nth-child(even) {
-    background: #F2F2F2;
+.row g-3 align-items-center{
+    
 }
-
-tr:nth-child(odd) {
+.anime {
+    border: none;
+    height: 3px;
+    margin: 40px 0;
+    background-image: linear-gradient(to right, #FFF, #60b0f2, #FFF);
+}
+.anime:before,
+.anime:after {
+    content: '';
+    display: inline-block;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #2f9af3;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background: #FFF;
 }
-
-th, td {
-    padding-left: 1rem;
-    padding-right: 1rem;
+.anime:after {
+    animation: anim-hr 2s linear infinite; 
 }
-
-table {
-    margin: 0 auto;
+@keyframes anim-hr {
+    0% {
+        width: 40px;
+        height: 40px;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }   
 }

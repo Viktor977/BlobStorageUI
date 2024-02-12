@@ -6,7 +6,7 @@ namespace BlobStorageUI.Server.Services
     public class FileService
     {
         private readonly string _storageAccount = "smallblobcontainer";
-        private readonly string _accesskey = "/qUMId+zlD00dCDWMv7l3Pi0IrgBl4LQnJYys/avX27V4gWvIAumo8f6w9w2fNGegd71lIKOVahy+AStU1J/Vg==";
+        private readonly string _accesskey = "....";
         private readonly BlobServiceClient _blobServiceClient;
         private readonly BlobContainerClient _filesContainer;
 

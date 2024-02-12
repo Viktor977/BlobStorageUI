@@ -34,6 +34,10 @@ namespace BlobStorageUI.Server.Controllers
         public async Task<IActionResult>Douwnload(string fileName)
         {
             var result = await  fileService.DouwnloadAsync(fileName);
+            if(result is null)
+            {
+                return new NotFoundResult();
+            }
             return File(result.Content,result.ContentType,result.Name);
         }
 
